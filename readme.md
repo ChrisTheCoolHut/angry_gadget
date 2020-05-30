@@ -4,6 +4,8 @@ Locating OneGadgets in libc.
 
 Inspired by [OneGadget](https://github.com/david942j/one_gadget) this tool is written in python and uses [angr](https://github.com/angr/angr) to test constraints for gadgets executing `execve('/bin/sh', NULL, NULL)`
 
+If you've run out gadgets to try from OneGadget, Angry Gadget gives a lot more with complicated constraints to try!
+
 # Installation
 ```
 pip install angry_gadget
